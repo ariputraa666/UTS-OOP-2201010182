@@ -140,7 +140,7 @@ class dtMusik {
         System.out.print("Password: ");
         String password = dtIN.nextLine();
 
-        // Simple username and password check
+    
         if (username.equals("admin@gmail.com") && password.equals("12345")) {
             System.out.println("Login berhasil!!");
             return true;
