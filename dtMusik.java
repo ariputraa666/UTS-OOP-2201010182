@@ -152,10 +152,10 @@ class dtMusik {
 
     // Mencari Data Musik Sesuai dengan Nomor record
     public void searchMusik() {
-        System.out.print("Masukan Nomor Record yang ingin dicari: ");
+        System.out.print("Masukan Nomor Record Musik yang ingin dicari: ");
         int idx = Integer.parseInt(dtIN.nextLine());
         if (idx < 0 || idx >= aRec) {
-            System.out.println("Nomor Record tidak tersedia!");
+            System.out.println("Nomor Record Musik tidak tersedia!");
             return;
         }
 
