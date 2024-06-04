@@ -135,9 +135,9 @@ class dtMusik {
 
     // Login 
     public boolean login() {
-        System.out.print("Username: ");
+        System.out.print("Email anda: ");
         String username = dtIN.nextLine();
-        System.out.print("Password: ");
+        System.out.print("Password anda: ");
         String password = dtIN.nextLine();
 
     
