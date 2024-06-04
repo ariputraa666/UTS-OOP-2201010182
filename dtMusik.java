@@ -136,12 +136,12 @@ class dtMusik {
     // Login 
     public boolean login() {
         System.out.print("Email anda: ");
-        String username = dtIN.nextLine();
+        String email = dtIN.nextLine();
         System.out.print("Password anda: ");
         String password = dtIN.nextLine();
 
     
-        if (username.equals("admin@gmail.com") && password.equals("12345")) {
+        if (email.equals("admin@gmail.com") && password.equals("12345")) {
             System.out.println("Login berhasil!!");
             return true;
         } else {
